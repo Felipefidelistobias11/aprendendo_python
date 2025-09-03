@@ -1,0 +1,3 @@
+tabu = int(input("Digite um numero para gerar sua tabuada\n"))
+for contador in range(11):
+    print (f"{tabu} X {contador} = {tabu * contador}")
